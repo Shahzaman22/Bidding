@@ -26,5 +26,5 @@ require('./Apps/config/db')
 //ROUTES
 app.use('/api', require('./Apps/routes/app.routes'))
 
-//PORT
+//PORT Testing
 app.listen(port, console.log(`Connecte to port ${port}`))
